@@ -29,6 +29,10 @@ The complete method for every video. Follow it exactly; no shortcuts.
    hiding it.
 
 ## 4. Audio (every video ships WITH sound)
+- **Voice lock (absolute)**: all voiceovers use the single locked voice
+  `avocado_v2:chip` (Warm Pebble), English only. The same voice in every
+  video, forever — never switch voices between videos. The user does not
+  record anything; the assistant generates all voiceover via TTS.
 - **Voiceover/dialogue**: English, written per shot, generated via TTS,
   timed to the shot timestamps with ffmpeg `adelay` + `amix`.
 - **SFX matched to scene**: e.g. Tube rumble + door hiss + announcements for
