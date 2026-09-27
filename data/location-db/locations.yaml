@@ -1,0 +1,193 @@
+# Location DB — built from STRATEGY/LOCATION_ENGINE.md
+
+Region tags follow the audience plan: USA / UK / Gulf / Global.
+`country` keeps Gulf entries accurate — never treat Gulf countries as one
+generic setting (accuracy rule).
+
+# USA
+locations:
+  - id: loc_nyc_times_square
+    name: "New York — Times Square"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Neon billboards, yellow cabs, night energy"
+  - id: loc_la_santa_monica
+    name: "Los Angeles — Santa Monica beach"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Pier, palm trees, golden-hour surf light"
+  - id: loc_miami_south_beach
+    name: "Miami — South Beach"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Art-deco facades, turquoise water, bright daylight"
+  - id: loc_chicago_downtown
+    name: "Chicago — downtown riverwalk"
+    country: "USA"
+    region: [USA]
+    visual_notes: "Steel bridges, skyscraper canyon, crisp daylight"
+  - id: loc_vegas_strip
+    name: "Las Vegas — the Strip at night"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Neon overload, fountains, night"
+  - id: loc_sf_golden_gate
+    name: "San Francisco — Golden Gate overlook"
+    country: "USA"
+    region: [USA]
+    visual_notes: "Fog wisps, orange bridge, coastal wind"
+  - id: loc_american_diner
+    name: "Classic American diner"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Chrome, red booths, milkshake glasses, warm tungsten"
+  - id: loc_route66_highway
+    name: "Desert highway road trip"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Endless road, big sky, roadside signs"
+  - id: loc_us_national_park
+    name: "US national park trail"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Red rocks or pine forest, dramatic scale"
+
+# UK
+  - id: loc_london_thames
+    name: "London — Thames riverside"
+    country: "UK"
+    region: [UK, Global]
+    visual_notes: "Big Ben, overcast soft light, red bus passing"
+  - id: loc_london_cafe
+    name: "London café, rainy window seat"
+    country: "UK"
+    region: [UK, Global]
+    visual_notes: "Rain-streaked glass, warm interior glow"
+  - id: loc_edinburgh_old_town
+    name: "Edinburgh — Old Town"
+    country: "UK"
+    region: [UK]
+    visual_notes: "Stone closes, castle on the hill, moody light"
+  - id: loc_english_countryside
+    name: "English countryside lane"
+    country: "UK"
+    region: [UK, Global]
+    visual_notes: "Hedgerows, stone cottages, soft green light"
+  - id: loc_uk_coastal_town
+    name: "UK coastal town pier"
+    country: "UK"
+    region: [UK]
+    visual_notes: "Victorian pier, grey-blue sea, gulls"
+
+# Gulf — UAE
+  - id: loc_dubai_marina
+    name: "Dubai — Marina promenade"
+    country: "UAE"
+    region: [Gulf, Global]
+    visual_notes: "Supertall towers, yachts, blue-hour reflections"
+  - id: loc_dubai_burj_area
+    name: "Dubai — Burj Khalifa district"
+    country: "UAE"
+    region: [Gulf, Global]
+    visual_notes: "Fountain show, glass towers, night lights"
+  - id: loc_dubai_souq
+    name: "Dubai — old souq"
+    country: "UAE"
+    region: [Gulf]
+    visual_notes: "Spice piles, wooden abra boats, warm daylight"
+  - id: loc_abudhabi_corniche
+    name: "Abu Dhabi — Corniche beach"
+    country: "UAE"
+    region: [Gulf]
+    visual_notes: "White sand, turquoise Gulf water, skyline"
+  - id: loc_desert_camp
+    name: "Desert camp at dusk"
+    country: "UAE"
+    region: [Gulf, Global]
+    visual_notes: "Dunes, lanterns, low majlis seating, deep-blue sky"
+
+# Gulf — Saudi Arabia
+  - id: loc_riyadh_blvd
+    name: "Riyadh — Boulevard City"
+    country: "Saudi Arabia"
+    region: [Gulf]
+    visual_notes: "Modern entertainment district, night lights"
+  - id: loc_jeddah_corniche
+    name: "Jeddah — Corniche"
+    country: "Saudi Arabia"
+    region: [Gulf]
+    visual_notes: "Red Sea waterfront, floating mosque, sunset"
+  - id: loc_alula_desert
+    name: "AlUla — desert canyons"
+    country: "Saudi Arabia"
+    region: [Gulf, Global]
+    visual_notes: "Sandstone monoliths, ancient tombs, golden light"
+
+# Gulf — Qatar / Kuwait / Bahrain / Oman
+  - id: loc_doha_westbay
+    name: "Doha — West Bay skyline"
+    country: "Qatar"
+    region: [Gulf]
+    visual_notes: "Futuristic towers, Corniche curve, dusk"
+  - id: loc_kuwait_towers
+    name: "Kuwait City — Kuwait Towers"
+    country: "Kuwait"
+    region: [Gulf]
+    visual_notes: "Iconic spheres, Gulf sea backdrop"
+  - id: loc_manama_bahrain
+    name: "Manama — Bahrain Bay"
+    country: "Bahrain"
+    region: [Gulf]
+    visual_notes: "Modern skyline, marina, warm evenings"
+  - id: loc_muscat_mutrah
+    name: "Muscat — Mutrah Corniche"
+    country: "Oman"
+    region: [Gulf]
+    visual_notes: "White buildings, mountains behind, frankincense smoke"
+  - id: loc_salalah_green
+    name: "Salalah — khareef greenery"
+    country: "Oman"
+    region: [Gulf]
+    visual_notes: "Monsoon-green hills, waterfalls, mist"
+
+# Global
+  - id: loc_paris_eiffel
+    name: "Paris — Eiffel Tower street"
+    country: "France"
+    region: [Global]
+    visual_notes: "Haussmann facades, café terraces, soft morning light"
+  - id: loc_tokyo_shibuya
+    name: "Tokyo — Shibuya crossing"
+    country: "Japan"
+    region: [Global]
+    visual_notes: "Neon scramble, night rain reflections"
+  - id: loc_bali_beach
+    name: "Bali — beach club"
+    country: "Indonesia"
+    region: [Global]
+    visual_notes: "Palm shade, infinity pool, sunset"
+  - id: loc_swiss_alps
+    name: "Swiss Alps — mountain viewpoint"
+    country: "Switzerland"
+    region: [Global]
+    visual_notes: "Snow peaks, cable car, crisp blue sky"
+  - id: loc_maldives_island
+    name: "Maldives — sandbank island"
+    country: "Maldives"
+    region: [Global]
+    visual_notes: "White sand, gradient lagoon, seaplane"
+  - id: loc_cruise_deck
+    name: "Cruise ship — open deck at sunset"
+    country: null
+    region: [Global]
+    visual_notes: "Ocean horizon, deck lights, golden water"
+  - id: loc_yacht_day
+    name: "Yacht — daytime deck"
+    country: null
+    region: [Global]
+    visual_notes: "White deck, open sea, bright luxury daylight"
+  - id: loc_airport_terminal
+    name: "International airport terminal"
+    country: null
+    region: [Global]
+    visual_notes: "Glass architecture, departure boards, motion"

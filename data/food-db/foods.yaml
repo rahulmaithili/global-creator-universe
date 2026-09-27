@@ -1,0 +1,94 @@
+# Food DB — region-authentic dishes for the food pillar (10% of content).
+# Built from the food video/photo categories: street food, restaurant ordering,
+# giant food, tasting challenge, cooking, unexpected bill, food comparison,
+# dessert hunt, breakfast, airport food.
+foods:
+  # USA
+  - id: food_smash_burger
+    name: "Smash burger and fries"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Cheese pull, diner tray, checkered paper"
+  - id: food_nyc_pizza
+    name: "New York pizza slice"
+    country: "USA"
+    region: [USA]
+    visual_notes: "Foldable slice, steam, pizzeria counter"
+  - id: food_bbq_platter
+    name: "Texas BBQ platter"
+    country: "USA"
+    region: [USA]
+    visual_notes: "Smoked brisket, butcher paper, rustic table"
+  - id: food_diner_breakfast
+    name: "Diner breakfast stack"
+    country: "USA"
+    region: [USA, Global]
+    visual_notes: "Pancake stack, syrup pour, coffee mug"
+  # UK
+  - id: food_fish_chips
+    name: "Fish and chips"
+    country: "UK"
+    region: [UK, Global]
+    visual_notes: "Paper wrap, seaside bench, vinegar shine"
+  - id: food_full_english
+    name: "Full English breakfast"
+    country: "UK"
+    region: [UK]
+    visual_notes: "Overhead spread, morning café light"
+  - id: food_afternoon_tea
+    name: "Afternoon tea stand"
+    country: "UK"
+    region: [UK, Global]
+    visual_notes: "Tiered stand, scones, porcelain, soft window light"
+  # Gulf
+  - id: food_shawarma
+    name: "Chicken shawarma wrap"
+    country: "UAE"
+    region: [Gulf, Global]
+    visual_notes: "Charred edges, garlic sauce drizzle, street cart"
+  - id: food_kabsa
+    name: "Saudi kabsa"
+    country: "Saudi Arabia"
+    region: [Gulf]
+    visual_notes: "Spiced rice mound, whole roast chicken, communal tray"
+  - id: food_machboos
+    name: "Kuwaiti machboos"
+    country: "Kuwait"
+    region: [Gulf]
+    visual_notes: "Fragrant rice, fish, traditional serving dish"
+  - id: food_karak
+    name: "Karak tea"
+    country: "Qatar"
+    region: [Gulf]
+    visual_notes: "Small glass, tea pour, cafeteria counter"
+  - id: food_luqaimat
+    name: "Luqaimat with date syrup"
+    country: "UAE"
+    region: [Gulf, Global]
+    visual_notes: "Golden dumplings, syrup drizzle, close-up"
+  # Global
+  - id: food_sushi_tokyo
+    name: "Tokyo sushi counter"
+    country: "Japan"
+    region: [Global]
+    visual_notes: "Chef hands, wooden counter, minimal light"
+  - id: food_ramen
+    name: "Ramen bowl"
+    country: "Japan"
+    region: [Global]
+    visual_notes: "Steam swirl, noodle lift, lantern-lit shop"
+  - id: food_croissant_paris
+    name: "Paris croissant and coffee"
+    country: "France"
+    region: [Global]
+    visual_notes: "Flaky layers, café terrace, morning"
+  - id: food_pad_thai
+    name: "Bangkok pad thai"
+    country: "Thailand"
+    region: [Global]
+    visual_notes: "Wok toss, street stall flames, night market"
+  - id: food_turkish_kebab
+    name: "Istanbul kebab plate"
+    country: "Turkey"
+    region: [Global]
+    visual_notes: "Charcoal grill, flatbread, bustling ocakbaşı"

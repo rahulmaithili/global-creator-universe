@@ -1,0 +1,56 @@
+# Outfit DB — locked to the male late-20s/early-30s persona.
+# From CHARACTER/CHARACTER_SHEET.md: reference outfit is a light/white textured
+# crew-neck sweater (reference, not permanent). Outfits may change; face, hair
+# family, beard family, skin tone and build never do.
+outfits:
+  - id: outfit_signature_casual
+    name: "Signature casual"
+    description: "Light/white textured crew-neck sweater, dark jeans, clean white sneakers"
+    occasion: [daily, lifestyle]
+    region: [Global]
+    is_reference_outfit: true
+  - id: outfit_street_urban
+    name: "Urban street"
+    description: "Denim jacket over plain tee, chinos, sneakers"
+    occasion: [city, travel]
+    region: [USA, UK, Global]
+  - id: outfit_smart_evening
+    name: "Smart evening"
+    description: "Navy blazer, white shirt, chinos, loafers"
+    occasion: [restaurant, luxury, evening]
+    region: [Global]
+  - id: outfit_desert_safari
+    name: "Desert safari"
+    description: "Sand linen shirt, cargo pants, boots, sunglasses"
+    occasion: [desert, adventure]
+    region: [Gulf, Global]
+  - id: outfit_beach_day
+    name: "Beach day"
+    description: "Open short-sleeve shirt, swim shorts, sandals"
+    occasion: [beach, island]
+    region: [Global]
+  - id: outfit_winter_mountain
+    name: "Winter mountain"
+    description: "Puffer jacket, beanie, gloves, hiking boots"
+    occasion: [mountain, snow, winter]
+    region: [Global]
+  - id: outfit_gym
+    name: "Gym session"
+    description: "Athletic tee, joggers, training shoes"
+    occasion: [gym, wellness]
+    region: [Global]
+  - id: outfit_cruise_formal
+    name: "Cruise formal night"
+    description: "Dark suit, white shirt, no tie, dress shoes"
+    occasion: [cruise, luxury, formal]
+    region: [Global]
+  - id: outfit_flight_comfort
+    name: "Flight comfort"
+    description: "Hoodie, joggers, slip-on sneakers, backpack"
+    occasion: [airport, travel]
+    region: [Global]
+  - id: outfit_cafe_smart_casual
+    name: "Café smart-casual"
+    description: "Oxford shirt, rolled sleeves, jeans, boots"
+    occasion: [cafe, city, date]
+    region: [UK, Global]

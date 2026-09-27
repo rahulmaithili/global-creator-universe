@@ -1,0 +1,85 @@
+# Hook DB — 0–2 second video hooks.
+# Built from the video formula + engagement engine in STRATEGY/MASTER_STRATEGY.md.
+# The dedup gate fingerprints on `pattern`, not wording — reworded repeats
+# still collide.
+hooks:
+  - id: hook_cold_open
+    pattern: cold_open_action
+    text: "(no intro — start mid-action, camera already moving)"
+    pillar: [comedy, adventure, travel]
+    platform: [all]
+  - id: hook_what_would_you_do
+    pattern: question_dilemma
+    text: "What would YOU do if this happened to you?"
+    pillar: [comedy, lifestyle, travel]
+    platform: [all]
+  - id: hook_ab_choice
+    pattern: ab_choice
+    text: "A or B — choose in the comments, right now."
+    pillar: [food, lifestyle, travel]
+    platform: [all]
+  - id: hook_wait_for_it
+    pattern: curiosity_gap
+    text: "Wait for the last 3 seconds."
+    pillar: [comedy, adventure]
+    platform: [all]
+  - id: hook_expectation_reality
+    pattern: expectation_subvert
+    text: "I expected THIS… I got THAT."
+    pillar: [comedy, travel, food]
+    platform: [all]
+  - id: hook_pov
+    pattern: pov_immersion
+    text: "POV: you're doing this for the first time."
+    pillar: [travel, adventure, lifestyle]
+    platform: [facebook, instagram]
+  - id: hook_nobody_talks
+    pattern: contrarian_callout
+    text: "Nobody talks about this part of travelling."
+    pillar: [travel, lifestyle]
+    platform: [all]
+  - id: hook_stop_doing
+    pattern: mistake_reversal
+    text: "Stop doing this — do THIS instead."
+    pillar: [food, travel, lifestyle]
+    platform: [all]
+  - id: hook_countdown
+    pattern: countdown
+    text: "3… 2… 1… go."
+    pillar: [adventure, interactive]
+    platform: [all]
+  - id: hook_hidden_detail
+    pattern: hidden_detail
+    text: "There's something hidden in this video. Did you catch it?"
+    pillar: [interactive, comedy]
+    platform: [all]
+  - id: hook_price_shock
+    pattern: price_shock
+    text: "Guess how much this cost. Wrong answers only… actually, real answers."
+    pillar: [food, luxury, travel]
+    platform: [all]
+  - id: hook_not_supposed
+    pattern: wrong_moment
+    text: "That was NOT supposed to happen."
+    pillar: [comedy, adventure]
+    platform: [all]
+  - id: hook_come_with_me
+    pattern: invitation
+    text: "Come with me — you're not ready for this."
+    pillar: [travel, food, luxury]
+    platform: [all]
+  - id: hook_sixty_seconds
+    pattern: challenge
+    text: "I have 60 seconds. That's it."
+    pillar: [adventure, interactive]
+    platform: [all]
+  - id: hook_watch_this_change
+    pattern: before_after
+    text: "Watch this change in 10 seconds."
+    pillar: [lifestyle, food, travel]
+    platform: [all]
+  - id: hook_silent
+    pattern: silent_cinematic
+    text: "(no words — let the scene speak, end on a look to camera)"
+    pillar: [travel, wholesome, luxury]
+    platform: [all]

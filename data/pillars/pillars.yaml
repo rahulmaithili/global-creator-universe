@@ -1,0 +1,107 @@
+# Content pillars — from STRATEGY/CONTENT_PILLARS.md + MASTER_STRATEGY.md.
+# Percentages are a planning guide, not a rigid quota.
+pillars:
+  - id: comedy
+    name: "Universal relatable comedy"
+    weight: 20
+    tier: A
+  - id: lifestyle
+    name: "Lifestyle"
+    weight: 15
+    tier: A
+  - id: travel
+    name: "Travel and city life"
+    weight: 15
+    tier: A
+  - id: food
+    name: "Food"
+    weight: 10
+    tier: A
+  - id: adventure
+    name: "Adventure"
+    weight: 10
+    tier: A
+  - id: luxury
+    name: "Luxury / cruise / yacht / premium experiences"
+    weight: 10
+    tier: B
+  - id: interactive
+    name: "Interactive choice and audience decisions"
+    weight: 10
+    tier: C
+  - id: wholesome
+    name: "Friendship / wholesome / emotional mini-stories"
+    weight: 5
+    tier: B
+  - id: trends
+    name: "Trend adaptation and experiments"
+    weight: 5
+    tier: C
+
+# Tier B expansion topics (high-variety rotation)
+tier_b_topics:
+  - "Cruise ships"
+  - "Yachts"
+  - "Cargo/container ships and port life"
+  - "Airports and flights"
+  - "Hotels and resorts"
+  - "Cars and road trips"
+  - "Mountains and snow"
+  - "Desert adventures"
+  - "Beach and island life"
+  - "Gym and wellness lifestyle"
+  - "Shopping and fashion"
+  - "Coffee and café culture"
+  - "Work/creator life"
+  - "Animal encounters"
+
+# Tier C story formats
+tier_c_formats:
+  - "POV"
+  - "Expectation vs reality"
+  - "One-day challenge"
+  - "Mystery"
+  - "Unexpected twist"
+  - "Audience decides next episode"
+  - "A/B choice"
+  - "Mini-series"
+  - "Cinematic silent story"
+  - "Dialogue comedy"
+
+# Endless combination formula (MASTER_STRATEGY):
+# LOCATION × ACTIVITY × EMOTION × CONFLICT × TWIST × CAMERA × WEATHER × OUTFIT × CTA
+# "Unlimited" = unlimited combinations, never repeats (see anti-duplicate-db).
+combination_axes:
+  - location
+  - activity
+  - emotion
+  - conflict
+  - twist
+  - camera
+  - weather
+  - outfit
+  - cta
+
+emotions:
+  - curiosity
+  - excitement
+  - embarrassment
+  - surprise
+  - confidence
+  - confusion
+  - joy
+  - frustration
+  - suspense
+  - relief
+
+conflict_twist_seeds:
+  - "wrong order"
+  - "unexpected bill"
+  - "missed transport"
+  - "weather change"
+  - "lost item"
+  - "surprise invitation"
+  - "unusual food"
+  - "animal interaction"
+  - "unexpected friend"
+  - "hidden location"

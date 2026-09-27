@@ -1,0 +1,55 @@
+# Series DB — the 10 recurring series from STRATEGY/SERIES_BIBLE.md.
+# Continuity devices are deliberate and never treated as duplication.
+series:
+  - id: rahul_goes_global
+    name: "Rahul Goes Global"
+    premise: "Destination stories — one place, one story, one payoff"
+    continuity: [travel_route, wardrobe_progression, previous_episode_reference]
+  - id: what_would_you_do
+    name: "What Would You Do?"
+    premise: "Audience-choice dilemma stories"
+    continuity: [audience_decision, previous_episode_reference]
+  - id: one_day_one_challenge
+    name: "One Day, One Challenge"
+    premise: "A single challenge completed in a day"
+    continuity: [challenge_streak, recurring_friend]
+  - id: food_i_didnt_expect
+    name: "Food I Didn't Expect"
+    premise: "Food discovery — surprising dishes, honest reactions"
+    continuity: [food_ranking, previous_episode_reference]
+  - id: cruise_life
+    name: "Cruise Life"
+    premise: "Ship and ocean stories"
+    continuity: [ship_route, recurring_friend, wardrobe_progression]
+  - id: airport_to_adventure
+    name: "From Airport to Adventure"
+    premise: "Travel continuity — landing to adventure in one arc"
+    continuity: [travel_route, previous_episode_reference]
+  - id: expectation_vs_reality
+    name: "Expectation vs Reality"
+    premise: "Comedy of mismatched expectations"
+    continuity: [running_gag, previous_episode_reference]
+  - id: next_destination
+    name: "The Next Destination"
+    premise: "Audience chooses the location"
+    continuity: [audience_decision, travel_route]
+  - id: sixty_seconds_comfort_zone
+    name: "60 Seconds Outside My Comfort Zone"
+    premise: "Quick adventure bursts"
+    continuity: [challenge_streak]
+  - id: everyday_unexpected_ending
+    name: "Everyday Life, Unexpected Ending"
+    premise: "Relatable mini stories with a twist"
+    continuity: [recurring_animal, previous_episode_reference]
+
+# Shared continuity devices (deliberate, not duplication)
+continuity_devices:
+  - wardrobe_progression
+  - travel_route
+  - recurring_friend
+  - recurring_animal
+  - previous_episode_reference
+  - audience_decision
+  - challenge_streak
+  - food_ranking
+  - running_gag

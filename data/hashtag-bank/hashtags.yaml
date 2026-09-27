@@ -1,0 +1,69 @@
+# Hashtag bank — assembled per SOCIAL/ hashtag rules:
+# 1–3 broad + 2–4 niche + 1–2 location (only when genuinely relevant) + 1 brand/series.
+# Platform adapters trim counts (IG ~8–12, FB ~3–5, YT ~3–5). No misleading location tags.
+sets:
+  - id: hs_brand_core
+    tags: ["#GlobalCreator", "#RahulGoesGlobal"]
+    pillar: [all]
+    region: [Global]
+  - id: hs_comedy
+    tags: ["#Comedy", "#Relatable", "#ExpectationVsReality", "#FunnyReels"]
+    pillar: [comedy]
+    region: [Global]
+  - id: hs_lifestyle
+    tags: ["#Lifestyle", "#DayInMyLife", "#CreatorLife", "#DailyVibes"]
+    pillar: [lifestyle]
+    region: [Global]
+  - id: hs_travel
+    tags: ["#Travel", "#CityExplorer", "#Wanderlust", "#TravelDiaries"]
+    pillar: [travel]
+    region: [Global]
+  - id: hs_food
+    tags: ["#Foodie", "#FoodAdventure", "#StreetFood", "#FoodChallenge"]
+    pillar: [food]
+    region: [Global]
+  - id: hs_adventure
+    tags: ["#Adventure", "#OutsideMyComfortZone", "#ExploreMore"]
+    pillar: [adventure]
+    region: [Global]
+  - id: hs_luxury
+    tags: ["#LuxuryTravel", "#CruiseLife", "#YachtDay", "#PremiumExperience"]
+    pillar: [luxury]
+    region: [Global]
+  - id: hs_wholesome
+    tags: ["#Wholesome", "#GoodVibes", "#KindnessMatters"]
+    pillar: [wholesome]
+    region: [Global]
+  # Region tags — attach only when the location is genuine
+  - id: hs_usa
+    tags: ["#USA", "#AmericanLife"]
+    pillar: [all]
+    region: [USA]
+  - id: hs_nyc
+    tags: ["#NYC", "#NewYorkCity"]
+    pillar: [travel, lifestyle]
+    region: [USA]
+  - id: hs_uk
+    tags: ["#UK", "#BritishLife"]
+    pillar: [all]
+    region: [UK]
+  - id: hs_london
+    tags: ["#London", "#LondonLife"]
+    pillar: [travel, lifestyle]
+    region: [UK]
+  - id: hs_dubai
+    tags: ["#Dubai", "#VisitDubai"]
+    pillar: [travel, lifestyle, luxury]
+    region: [Gulf]
+  - id: hs_uae
+    tags: ["#UAE", "#Emirates"]
+    pillar: [all]
+    region: [Gulf]
+  - id: hs_ksa
+    tags: ["#SaudiArabia", "#VisitSaudi"]
+    pillar: [travel, adventure]
+    region: [Gulf]
+  - id: hs_qatar
+    tags: ["#Qatar", "#Doha"]
+    pillar: [travel, lifestyle]
+    region: [Gulf]

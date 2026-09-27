@@ -1,0 +1,52 @@
+# CTA DB — one ask per post, never two.
+# First 8 are verbatim from SOCIAL/CAPTION_HASHTAG_CTA_ENGINE.md CTA rotation.
+# Rule from MASTER_STRATEGY: do not use "like/share/follow" as the only CTA.
+ctas:
+  - id: cta_where_next
+    goal: comment
+    text: "Where should I go next?"
+    platform: [all]
+  - id: cta_would_you_try
+    goal: comment
+    text: "Would you try this?"
+    platform: [all]
+  - id: cta_a_or_b
+    goal: comment
+    text: "A or B?"
+    platform: [all]
+  - id: cta_what_would_you_do
+    goal: comment
+    text: "What would you do?"
+    platform: [all]
+  - id: cta_which_choosing
+    goal: comment
+    text: "Which one are you choosing?"
+    platform: [all]
+  - id: cta_guess_next
+    goal: comment
+    text: "Guess what happened next."
+    platform: [all]
+  - id: cta_next_episode
+    goal: comment
+    text: "What should the next episode be?"
+    platform: [all]
+  - id: cta_which_food
+    goal: comment
+    text: "Which food should I try next?"
+    platform: [all]
+  - id: cta_rate_it
+    goal: comment
+    text: "Rate this 1–10 in the comments."
+    platform: [all]
+  - id: cta_spot_detail
+    goal: comment
+    text: "Spot the hidden detail. 👀"
+    platform: [facebook, instagram]
+  - id: cta_send_friend
+    goal: share
+    text: "Send this to someone who needs a laugh today."
+    platform: [facebook, instagram]
+  - id: cta_follow_series
+    goal: follow
+    text: "New episode every day — follow so you don't miss it."
+    platform: [all]
