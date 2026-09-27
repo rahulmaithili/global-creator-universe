@@ -9,7 +9,8 @@ Writes the caption + CTA from the idea and story beats.
 - `data/cta-db/` — exactly ONE CTA, matched to the post's goal
 
 ## Process
-1. Caption rules: concise, natural English. Match the actual scene. Never make
+1. Caption rules: concise, natural English — English only, no Hindi/Hinglish
+   anywhere (LANGUAGE.md). Match the actual scene. Never make
    false claims about real-world experiences for AI-generated/fictional content.
 2. First line must survive truncation (hook or payoff tease).
 3. Body: 1–3 short lines in brand voice (approachable, curious, humorous).

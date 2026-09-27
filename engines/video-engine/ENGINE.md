@@ -22,7 +22,8 @@ Turns the idea into a **video generation prompt** using `VIDEO/VIDEO_MASTER_PROM
 3. Apply the video formula timing: 0–2s hook · 2–8s setup · 8–20s escalation ·
    20–28s twist/payoff · final seconds = comment-worthy choice/question.
    (Longer videos expand the architecture — never filler.)
-4. Dialogue rule: short, natural, globally understandable English. No speeches.
+4. Dialogue rule: short, natural English — English only, no Hindi/Hinglish
+   (LANGUAGE.md). No speeches.
 5. Append hard negatives: no watermark, no random logos, no unwanted text, no
    face swap, no character replacement, no deformed hands, no duplicate
    protagonist, realistic skin texture, believable physics.

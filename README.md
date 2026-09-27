@@ -21,6 +21,7 @@ CHARACTER IDENTITY STAYS CONSISTENT. WORLD, STORY, OUTFIT, LOCATION AND ACTIVITY
 |---|---|---|
 | Brand Bible (the rulebook) | `CHARACTER/` `STRATEGY/` `VIDEO/` `PHOTO/` `SOCIAL/` `GENERATOR/` | ✅ Complete |
 | Automation (the machine) | `data/` `engines/` `output/` `identity/` | ✅ Phase 1 complete |
+| Content language | `LANGUAGE.md` — English only | ✅ Enforced |
 
 - **Brand Bible** — character lock + sheet, content pillars, 365-day engine,
   location engine, master prompts, categories, series bible, caption/hashtag/CTA
