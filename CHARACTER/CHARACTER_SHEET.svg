@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600">
+<rect width="1200" height="1600" fill="#f7f9fc"/>
+<rect width="1200" height="120" fill="#12365a"/>
+<text x="55" y="70" font-family="Arial,sans-serif" font-size="40" font-weight="700" fill="white">GLOBAL CREATOR UNIVERSE</text>
+<text x="55" y="105" font-family="Arial,sans-serif" font-size="20" fill="#dcecff">CHARACTER SHEET • SOURCE OF TRUTH</text>
+<rect x="45" y="150" width="1110" height="240" rx="18" fill="white" stroke="#cbd7e5"/>
+<text x="75" y="195" font-family="Arial" font-size="28" font-weight="700" fill="#12365a">IDENTITY LOCK</text>
+<text x="75" y="235" font-family="Arial" font-size="20" fill="#222">Male creator persona • late-20s to early-30s visual appearance</text>
+<text x="75" y="270" font-family="Arial" font-size="20" fill="#222">Short black hair • dark brown eyes • medium-brown skin • broad/oval face</text>
+<text x="75" y="305" font-family="Arial" font-size="20" fill="#222">Trimmed full beard + neat moustache • natural average-to-solid build</text>
+<text x="75" y="340" font-family="Arial" font-size="20" fill="#222">Approachable • curious • funny • adventurous • expressive • relatable</text>
+<rect x="45" y="420" width="535" height="430" rx="18" fill="white" stroke="#cbd7e5"/>
+<text x="75" y="465" font-family="Arial" font-size="28" font-weight="700" fill="#12365a">APPEARANCE LOCK</text>
+<text x="75" y="515" font-family="Arial" font-size="19" fill="#222">✓ Facial identity</text>
+<text x="75" y="550" font-family="Arial" font-size="19" fill="#222">✓ Face proportions</text>
+<text x="75" y="585" font-family="Arial" font-size="19" fill="#222">✓ Hairline / hairstyle family</text>
+<text x="75" y="620" font-family="Arial" font-size="19" fill="#222">✓ Beard / moustache pattern</text>
+<text x="75" y="655" font-family="Arial" font-size="19" fill="#222">✓ Skin tone</text>
+<text x="75" y="690" font-family="Arial" font-size="19" fill="#222">✓ Body proportions</text>
+<text x="75" y="745" font-family="Arial" font-size="19" fill="#555">Flexible: outfit, shoes, accessories, pose,</text>
+<text x="75" y="775" font-family="Arial" font-size="19" fill="#555">location, weather, lighting and camera.</text>
+<rect x="615" y="420" width="540" height="430" rx="18" fill="white" stroke="#cbd7e5"/>
+<text x="645" y="465" font-family="Arial" font-size="28" font-weight="700" fill="#12365a">CONTENT UNIVERSE</text>
+<text x="645" y="515" font-family="Arial" font-size="19" fill="#222">FOOD • restaurants • street food • cooking</text>
+<text x="645" y="555" font-family="Arial" font-size="19" fill="#222">TRAVEL • cities • airports • road trips • hotels</text>
+<text x="645" y="595" font-family="Arial" font-size="19" fill="#222">ADVENTURE • mountains • desert • ocean • hiking</text>
+<text x="645" y="635" font-family="Arial" font-size="19" fill="#222">SHIPS • cruise • yacht • ferry • cargo/port</text>
+<text x="645" y="675" font-family="Arial" font-size="19" fill="#222">LIFESTYLE • gym • coffee • fashion • creator life</text>
+<text x="645" y="715" font-family="Arial" font-size="19" fill="#222">COMEDY • POV • twists • audience choices</text>
+<text x="645" y="755" font-family="Arial" font-size="19" fill="#222">STORIES • mini-series • wholesome • suspense</text>
+<rect x="45" y="880" width="1110" height="290" rx="18" fill="#12365a"/>
+<text x="75" y="930" font-family="Arial" font-size="28" font-weight="700" fill="white">GLOBAL AUDIENCE</text>
+<text x="75" y="980" font-family="Arial" font-size="21" fill="white">USA • UK • UAE • Saudi Arabia • Qatar • Kuwait • Bahrain • Oman</text>
+<text x="75" y="1025" font-family="Arial" font-size="20" fill="#dcecff">Primary language: simple English • Optional English subtitles / selected Arabic subtitles</text>
+<text x="75" y="1070" font-family="Arial" font-size="20" fill="#dcecff">Same person | Different places | Endless stories</text>
+<text x="75" y="1115" font-family="Arial" font-size="20" fill="white">Core rule: WORLD CHANGES. OUTFIT CHANGES. STORY CHANGES. FACE IDENTITY STAYS.</text>
+<rect x="45" y="1200" width="1110" height="310" rx="18" fill="white" stroke="#cbd7e5"/>
+<text x="75" y="1245" font-family="Arial" font-size="28" font-weight="700" fill="#12365a">GENERATION RULES</text>
+<text x="75" y="1290" font-family="Arial" font-size="19" fill="#222">1. Use the approved reference image whenever the generator supports image reference.</text>
+<text x="75" y="1325" font-family="Arial" font-size="19" fill="#222">2. Never replace the protagonist or create a duplicate version.</text>
+<text x="75" y="1360" font-family="Arial" font-size="19" fill="#222">3. Keep anatomy, hands, skin texture and lighting realistic.</text>
+<text x="75" y="1395" font-family="Arial" font-size="19" fill="#222">4. Avoid fabricated identity claims about residence, education or official status.</text>
+<text x="75" y="1430" font-family="Arial" font-size="19" fill="#222">5. Check recent concepts before generating the next one to prevent repetition.</text>
+<text x="75" y="1475" font-family="Arial" font-size="21" font-weight="700" fill="#12365a">Commands: NEXT VIDEO • NEXT PHOTO • DAILY PACK • SERIES • REMAKE • TREND ADAPT</text>
+</svg>
