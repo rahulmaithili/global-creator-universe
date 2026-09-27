@@ -36,12 +36,12 @@ The complete method for every video. Follow it exactly; no shortcuts.
    hiding it.
 
 ## 4. Audio (every video ships WITH sound)
-- **Character talks on camera**: the creator is a vlogger — in dialogue beats
-  he must speak DIRECTLY TO CAMERA, mouth visibly moving as he talks, like a
-  real talking-head vlog. Direct this explicitly in the prompt
-  ("he looks into the lens and speaks, mouth moving naturally"). Time the
-  voiceover to these on-camera talking shots so voice and lips read as one.
-  Talking-head moments are the engagement engine — include several per video.
+- **Narration style (no on-camera talking)**: the creator never speaks to
+  camera — his mouth must NOT move as if talking. He reacts with expressions,
+  gestures, and body language only. The story is told entirely through the
+  voiceover narration timed over the scenes. Never place voiceover dialogue
+  over a shot where the character's mouth is moving; the lip-sync mismatch
+  breaks the illusion.
 - **Voice lock (absolute)**: the creator's voiceover always uses the single
   locked voice `avocado_v2:chip` (Warm Pebble), English only. Same voice in
   every video, forever. Other on-screen people (strangers, vendors) may use
@@ -77,3 +77,8 @@ ffmpeg -y -i shot1.mp4 -i shot2.mp4 ... \
 - Final file → `~/workspace/your_files/gcu-videos/`
 - Upload to the Drive folder "Global Creator Universe".
 - Record the episode in `data/episode-tracker/` with status `posted`.
+
+## 8. Audience
+- USA target only: concepts, locations, food, humor, and references must be
+  USA-focused (American cities, diners, road trips, everyday American life).
+  Titles, captions, and hashtags are written for a USA audience.
