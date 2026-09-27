@@ -5,7 +5,14 @@ The complete method for every video. Follow it exactly; no shortcuts.
 ## 1. Identity lock (absolute)
 - `identity/character-reference.png` is mandatory as `kind: image` input for
   EVERY `media.generate_video` call. Text description alone never holds the lock.
-- Prompt must state: preserve the exact recognizable facial identity in every frame.
+- Every prompt must state: preserve the exact recognizable facial identity —
+  same face shape, same short black swept-back hair, same trimmed beard and
+  moustache shape, same medium-brown skin tone, same dark-brown eyes — in
+  every frame. No face drift between shots.
+- **Face brightness**: every prompt must include explicit face lighting —
+  "bright soft key light on the character's face, face well-exposed and
+  clearly visible, no harsh shadows across the face." The face must never
+  render dark or muddy.
 
 ## 2. Language
 - English only — all dialogue, voiceover, titles, captions (LANGUAGE.md).
@@ -29,10 +36,17 @@ The complete method for every video. Follow it exactly; no shortcuts.
    hiding it.
 
 ## 4. Audio (every video ships WITH sound)
-- **Voice lock (absolute)**: all voiceovers use the single locked voice
-  `avocado_v2:chip` (Warm Pebble), English only. The same voice in every
-  video, forever — never switch voices between videos. The user does not
-  record anything; the assistant generates all voiceover via TTS.
+- **Character talks on camera**: the creator is a vlogger — in dialogue beats
+  he must speak DIRECTLY TO CAMERA, mouth visibly moving as he talks, like a
+  real talking-head vlog. Direct this explicitly in the prompt
+  ("he looks into the lens and speaks, mouth moving naturally"). Time the
+  voiceover to these on-camera talking shots so voice and lips read as one.
+  Talking-head moments are the engagement engine — include several per video.
+- **Voice lock (absolute)**: the creator's voiceover always uses the single
+  locked voice `avocado_v2:chip` (Warm Pebble), English only. Same voice in
+  every video, forever. Other on-screen people (strangers, vendors) may use
+  distinct TTS voices so dialogue sounds natural. The user does not record
+  anything; the assistant generates all voiceover via TTS.
 - **Voiceover/dialogue**: English, written per shot, generated via TTS,
   timed to the shot timestamps with ffmpeg `adelay` + `amix`.
 - **SFX matched to scene**: e.g. Tube rumble + door hiss + announcements for
