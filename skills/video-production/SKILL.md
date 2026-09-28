@@ -36,12 +36,16 @@ The complete method for every video. Follow it exactly; no shortcuts.
    hiding it.
 
 ## 4. Audio (every video ships WITH sound)
-- **Real-film style (no speech, no voiceover)**: the video plays like a real
-  film — the creator never speaks and there is no voiceover or dialogue of
-  any kind. Story is told purely through action, expressions, and cinematic
-  sound: scene-matched SFX (street ambience, food sizzle, footsteps) placed
-  at exact moments plus a low no-copyright music bed. Never generate
-  native speech (the tool cannot lip-sync) and never layer TTS.
+- **Character-lock audit (mandatory)**: after generating all shots and BEFORE
+  stitching, extract one frame from each shot and visually compare every face
+  against `identity/character-reference.png`. All shots must show the same
+  recognizable face, hairstyle, beard, and outfit. Any drifted shot is
+  regenerated — never stitched in.
+- **Real voice = short native vocalizations only**: the creator's own voice
+  may appear only as short natural sounds generated natively in the shot
+  (a delighted laugh, a satisfied "mmm", a surprised gasp) — never spoken
+  sentences, since the tool cannot lip-sync. No TTS, no voiceover, no
+  narration, no dialogue.
 - **No dialogue, no TTS, no voiceover**: the real-film format forbids all
   speech. The locked voice `avocado_v2:chip` is retired for this format.
   The user records nothing.
