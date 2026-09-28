@@ -36,19 +36,16 @@ The complete method for every video. Follow it exactly; no shortcuts.
    hiding it.
 
 ## 4. Audio (every video ships WITH sound)
-- **Narration style (no on-camera talking)**: the creator never speaks to
-  camera — his mouth must NOT move as if talking. He reacts with expressions,
-  gestures, and body language only. The story is told entirely through the
-  voiceover narration timed over the scenes. Never place voiceover dialogue
-  over a shot where the character's mouth is moving; the lip-sync mismatch
-  breaks the illusion.
-- **Voice lock (absolute)**: the creator's voiceover always uses the single
-  locked voice `avocado_v2:chip` (Warm Pebble), English only. Same voice in
-  every video, forever. Other on-screen people (strangers, vendors) may use
-  distinct TTS voices so dialogue sounds natural. The user does not record
-  anything; the assistant generates all voiceover via TTS.
-- **Voiceover/dialogue**: English, written per shot, generated via TTS,
-  timed to the shot timestamps with ffmpeg `adelay` + `amix`.
+- **Character speaks natively (no voiceover)**: the creator talks to camera
+  like a real vlog. Every shot is directed WITH NATIVE AUDIO and carries his
+  exact spoken line in quotes, e.g. "he looks into the lens and speaks aloud
+  the words '...' with clear audible speech and natural lip sync matching the
+  words". Never add TTS voiceover — the dialogue comes from the generation
+  itself. Keep every spoken line short enough to fit its shot. Verify each
+  clip has an audio stream before stitching.
+- **No TTS voiceover**: dialogue is generated natively in each shot by the
+  video model — never layered on top with TTS. The locked voice
+  `avocado_v2:chip` is retired for this format. The user records nothing.
 - **SFX matched to scene**: e.g. Tube rumble + door hiss + announcements for
   subway; traffic + footsteps for street; crowd + sizzle for food market.
   One-shots placed at exact timestamps, beds looped under segments.
