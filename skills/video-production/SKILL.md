@@ -36,16 +36,15 @@ The complete method for every video. Follow it exactly; no shortcuts.
    hiding it.
 
 ## 4. Audio (every video ships WITH sound)
-- **Character speaks natively (no voiceover)**: the creator talks to camera
-  like a real vlog. Every shot is directed WITH NATIVE AUDIO and carries his
-  exact spoken line in quotes, e.g. "he looks into the lens and speaks aloud
-  the words '...' with clear audible speech and natural lip sync matching the
-  words". Never add TTS voiceover — the dialogue comes from the generation
-  itself. Keep every spoken line short enough to fit its shot. Verify each
-  clip has an audio stream before stitching.
-- **No TTS voiceover**: dialogue is generated natively in each shot by the
-  video model — never layered on top with TTS. The locked voice
-  `avocado_v2:chip` is retired for this format. The user records nothing.
+- **Real-film style (no speech, no voiceover)**: the video plays like a real
+  film — the creator never speaks and there is no voiceover or dialogue of
+  any kind. Story is told purely through action, expressions, and cinematic
+  sound: scene-matched SFX (street ambience, food sizzle, footsteps) placed
+  at exact moments plus a low no-copyright music bed. Never generate
+  native speech (the tool cannot lip-sync) and never layer TTS.
+- **No dialogue, no TTS, no voiceover**: the real-film format forbids all
+  speech. The locked voice `avocado_v2:chip` is retired for this format.
+  The user records nothing.
 - **SFX matched to scene**: e.g. Tube rumble + door hiss + announcements for
   subway; traffic + footsteps for street; crowd + sizzle for food market.
   One-shots placed at exact timestamps, beds looped under segments.
